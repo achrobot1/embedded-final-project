@@ -1,0 +1,380 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 11 18:51:50 2019
+# Process ID: 10608
+# Current directory: /home/user/Documents/embedded-final-project/project-code
+# Command line: vivado .
+# Log file: /home/user/Documents/embedded-final-project/project-code/vivado.log
+# Journal file: /home/user/Documents/embedded-final-project/project-code/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project guitar_tuner /home/user/Documents/embedded-final-project/project-code/guitar_tuner -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/xilinx/Vivado/2018.2/data/ip'.
+set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
+set_property target_language VHDL [current_project]
+create_bd_design "design_1"
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_0]
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_0/S_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</axi_gpio_0/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41200000 [ 64K ]>
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {Custom} Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO]
+INFO: [board_rule 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] set_property CONFIG.GPIO_BOARD_INTERFACE Custom [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl
+INFO: [board_rule 100-100] connect_bd_intf_net /gpio_rtl /axi_gpio_0/GPIO
+WARNING: [board_rule 100-100] Board automation did not generate location constraint for /axi_gpio_0/GPIO. Users may need to specify the location constraint manually.
+file mkdir /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/constrs_1
+file mkdir /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/constrs_1/new
+close [ open /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/constrs_1/new/ssd_constraints.xdc w ]
+add_files -fileset constrs_1 /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/constrs_1/new/ssd_constraints.xdc
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO]
+delete_bd_objs [get_bd_intf_ports gpio_rtl]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_gpio_0/GPIO]
+endgroup
+set_property name seven_segment [get_bd_intf_ports GPIO_0]
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+make_wrapper -files [get_files /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+add_files -norecurse /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Wed Dec 11 19:37:18 2019] Launched design_1_rst_ps7_0_50M_0_synth_1, design_1_auto_pc_0_synth_1, design_1_processing_system7_0_0_synth_1, design_1_axi_gpio_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_rst_ps7_0_50M_0_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_rst_ps7_0_50M_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_processing_system7_0_0_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_axi_gpio_0_0_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_axi_gpio_0_0_synth_1/runme.log
+synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 19:37:18 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 6739.801 ; gain = 140.227 ; free physical = 10586 ; free virtual = 28397
+regenerate_bd_layout
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 11 19:43:08 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Dec 11 19:44:15 2019] Launched synth_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Dec 11 19:45:17 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 7285.133 ; gain = 0.000 ; free physical = 9830 ; free virtual = 27727
+Restored from archive | CPU: 0.150000 secs | Memory: 1.406113 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 7285.133 ; gain = 0.000 ; free physical = 9830 ; free virtual = 27727
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:46 . Memory (MB): peak = 7449.508 ; gain = 707.523 ; free physical = 9748 ; free virtual = 27648
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 11 19:47:52 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO] [get_bd_intf_ports seven_segment]
+delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_cells axi_gpio_0]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_nets rst_ps7_0_50M_interconnect_aresetn] [get_bd_nets rst_ps7_0_50M_peripheral_aresetn] [get_bd_cells ps7_0_axi_periph]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_cells rst_ps7_0_50M]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_intf_nets processing_system7_0_DDR] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_cells processing_system7_0]
+delete_bd_objs [get_bd_intf_ports FIXED_IO]
+delete_bd_objs [get_bd_intf_ports DDR]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_0/S_AXI} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</axi_gpio_0/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41200000 [ 64K ]>
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+WARNING: [BD 5-235] No pins matched 'get_bd_pins /axi_gpio_0/GPIO'
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {Custom} Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO]
+INFO: [board_rule 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] set_property CONFIG.GPIO_BOARD_INTERFACE Custom [get_bd_cells /axi_gpio_0]
+INFO: [board_rule 100-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 gpio_rtl
+INFO: [board_rule 100-100] connect_bd_intf_net /gpio_rtl /axi_gpio_0/GPIO
+WARNING: [board_rule 100-100] Board automation did not generate location constraint for /axi_gpio_0/GPIO. Users may need to specify the location constraint manually.
+regenerate_bd_layout
+set_property name seven_segment [get_bd_intf_ports gpio_rtl]
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+validate_bd_design -force
+make_wrapper -files [get_files /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_processing_system7_0_1, cache-ID = b187ae5da59b2cfb; cache size = 2.371 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_rst_ps7_0_50M_1, cache-ID = 5ddecc314f8bad1a; cache size = 2.371 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_1, cache-ID = 8d5e31444f4f5ba3; cache size = 2.371 MB.
+[Wed Dec 11 19:59:47 2019] Launched design_1_axi_gpio_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_axi_gpio_0_1_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_axi_gpio_0_1_synth_1/runme.log
+synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 19:59:47 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 7768.348 ; gain = 77.184 ; free physical = 9648 ; free virtual = 27554
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Dec 11 20:12:02 2019] Launched synth_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Dec 11 20:13:00 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd]
+refresh_design
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 7768.348 ; gain = 0.000 ; free physical = 9516 ; free virtual = 27416
+Restored from archive | CPU: 0.180000 secs | Memory: 1.829140 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.17 . Memory (MB): peak = 7768.348 ; gain = 0.000 ; free physical = 9516 ; free virtual = 27416
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 11 20:14:44 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8}] [get_bd_cells axi_gpio_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO]
+connect_bd_intf_net [get_bd_intf_ports seven_segment] [get_bd_intf_pins axi_gpio_0/GPIO]
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+reset_run design_1_axi_gpio_0_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_1, cache-ID = e6da74d4fa46b9f6; cache size = 3.119 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 8d5e31444f4f5ba3; cache size = 3.119 MB.
+[Wed Dec 11 20:24:46 2019] Launched synth_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 20:24:46 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+make_bd_pins_external  [get_bd_pins axi_gpio_0/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_0/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+endgroup
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO] [get_bd_intf_ports seven_segment]
+open_bd_design {/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd}
+set_property name seven_segment [get_bd_ports gpio_io_o_0]
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 8d5e31444f4f5ba3; cache size = 3.119 MB.
+[Wed Dec 11 20:29:19 2019] Launched synth_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 20:29:19 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec 11 20:36:09 2019] Launched synth_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 20:36:09 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+startgroup
+endgroup
+file mkdir /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk
+file copy -force /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/design_1_wrapper.sysdef /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+startgroup
+set_property -dict [list CONFIG.PCW_UIPARAM_DDR_ENABLE {0} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1}] [get_bd_cells processing_system7_0]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_DDR]
+endgroup
+save_bd_design
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Wrote  : </home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/design_1.bd> 
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 8d5e31444f4f5ba3; cache size = 3.119 MB.
+[Wed Dec 11 21:08:05 2019] Launched design_1_processing_system7_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_1_synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_processing_system7_0_1_synth_1/runme.log
+synth_1: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/synth_1/runme.log
+[Wed Dec 11 21:08:05 2019] Launched impl_1...
+Run output will be captured here: /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 8017.258 ; gain = 42.070 ; free physical = 8002 ; free virtual = 26116
+file copy -force /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/design_1_wrapper.sysdef /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file mkdir /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk
+file copy -force /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/impl_1/design_1_wrapper.sysdef /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk -hwspec /home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 11 21:33:40 2019...
