@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/user/Documents/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_processing_system7_0_1_synth_1'
+HD_PWD='/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.runs/design_1_processing_system7_0_1_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -269,3 +269,1296 @@ arm-none-eabi-size guitar-tuner.elf  |tee "guitar-tuner.elf.size"
   20560	   1160	  22600	  44320	   ad20	guitar-tuner.elf
 Finished building: guitar-tuner.elf.size
  
+15:03:56 **** Auto Build of project guitar-tuner_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+15:04:03 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:73:6: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+      usleep(10);
+      ^~~~~~
+../src/helloworld.c:79:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: guitar-tuner.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner_bsp/ps7_cortexa9_0/lib -o "guitar-tuner.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner.elf  |tee "guitar-tuner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20560	   1160	  22600	  44320	   ad20	guitar-tuner.elf
+Finished building: guitar-tuner.elf.size
+ 
+15:04:47 **** Incremental Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:73:6: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+      usleep(10);
+      ^~~~~~
+../src/helloworld.c:79:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: guitar-tuner.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner_bsp/ps7_cortexa9_0/lib -o "guitar-tuner.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner.elf  |tee "guitar-tuner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20560	   1160	  22600	  44320	   ad20	guitar-tuner.elf
+Finished building: guitar-tuner.elf.size
+ 
+15:05:31 **** Incremental Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:73:6: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+      usleep(10);
+      ^~~~~~
+../src/helloworld.c:79:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: guitar-tuner.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner_bsp/ps7_cortexa9_0/lib -o "guitar-tuner.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner.elf  |tee "guitar-tuner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20560	   1160	  22600	  44320	   ad20	guitar-tuner.elf
+Finished building: guitar-tuner.elf.size
+ 
+15:16:24 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:16:10: fatal error: xiicps.h: No such file or directory
+ #include "xiicps.h"
+          ^~~~~~~~~~
+compilation terminated.
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:18:07 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.h:26:0,
+                 from ../src/adventures_with_ip.c:6:
+../src/audio.h:7:23: error: 'XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_PS7_DEV_CFG_0_BASEADDR'?
+ #define AUDIO_BASE    XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR
+                       ^
+../src/audio.h:37:30: note: in expansion of macro 'AUDIO_BASE'
+  I2S_DATA_RX_L_REG  = 0x00 + AUDIO_BASE,
+                              ^~~~~~~~~~
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:57:1: error: unknown type name 'XIicPs'
+ XIicPs Iic;
+ ^~~~~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:18:12: error: 'XPAR_XIICPS_0_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XADCPS_0_DEVICE_ID'?
+  IicConfig(XPAR_XIICPS_0_DEVICE_ID);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+            XPAR_XADCPS_0_DEVICE_ID
+../src/adventures_with_ip.c:18:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/adventures_with_ip.c:26:2: warning: implicit declaration of function 'gpio_init' [-Wimplicit-function-declaration]
+  gpio_init();
+  ^~~~~~~~~
+../src/adventures_with_ip.c:27:2: warning: implicit declaration of function 'nco_init' [-Wimplicit-function-declaration]
+  nco_init(&Nco);
+  ^~~~~~~~
+../src/adventures_with_ip.c:27:12: error: 'Nco' undeclared (first use in this function)
+  nco_init(&Nco);
+            ^~~
+../src/adventures_with_ip.c:32:2: warning: implicit declaration of function 'menu' [-Wimplicit-function-declaration]
+  menu();
+  ^~~~
+../src/adventures_with_ip.c: At top level:
+../src/adventures_with_ip.c:50:6: warning: conflicting types for 'menu'
+ void menu(){
+      ^~~~
+../src/adventures_with_ip.c:32:2: note: previous implicit declaration of 'menu' was here
+  menu();
+  ^~~~
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:55:12: error: 'LED_BASE' undeclared (first use in this function); did you mean 'AUDIO_BASE'?
+  Xil_Out32(LED_BASE, 0);
+            ^~~~~~~~
+            AUDIO_BASE
+../src/adventures_with_ip.c:71:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:72:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c:86:3: warning: implicit declaration of function 'tonal_noise' [-Wimplicit-function-declaration]
+   tonal_noise();
+   ^~~~~~~~~~~
+../src/adventures_with_ip.c:92:3: warning: implicit declaration of function 'lms_filter'; did you mean 'tmpfile'? [-Wimplicit-function-declaration]
+   lms_filter();
+   ^~~~~~~~~~
+   tmpfile
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+15:19:00 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.h:26:0,
+                 from ../src/adventures_with_ip.c:6:
+../src/audio.h:7:23: error: 'XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_PS7_DEV_CFG_0_BASEADDR'?
+ #define AUDIO_BASE    XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR
+                       ^
+../src/audio.h:37:30: note: in expansion of macro 'AUDIO_BASE'
+  I2S_DATA_RX_L_REG  = 0x00 + AUDIO_BASE,
+                              ^~~~~~~~~~
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:57:1: error: unknown type name 'XIicPs'
+ XIicPs Iic;
+ ^~~~~~
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:22:15 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.h:26:0,
+                 from ../src/adventures_with_ip.c:6:
+../src/audio.h:7:20: error: 'XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_PS7_DEV_CFG_0_BASEADDR'?
+ #define AUDIO_BASE XPAR_ZYBO_AUDIO_CTRL_0_BASEADDR
+                    ^
+../src/audio.h:37:30: note: in expansion of macro 'AUDIO_BASE'
+  I2S_DATA_RX_L_REG  = 0x00 + AUDIO_BASE,
+                              ^~~~~~~~~~
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:57:1: error: unknown type name 'XIicPs'
+ XIicPs Iic;
+ ^~~~~~
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+15:23:37 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:57:1: error: unknown type name 'XIicPs'
+ XIicPs Iic;
+ ^~~~~~
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:23:45 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+../src/audio.c: In function 'IicConfig':
+../src/audio.c:18:2: error: unknown type name 'XIicPs_Config'; did you mean 'XUartPs_Config'?
+  XIicPs_Config *Config;
+  ^~~~~~~~~~~~~
+  XUartPs_Config
+../src/audio.c:24:11: warning: implicit declaration of function 'XIicPs_LookupConfig'; did you mean 'XUartPs_LookupConfig'? [-Wimplicit-function-declaration]
+  Config = XIicPs_LookupConfig(DeviceIdPS);
+           ^~~~~~~~~~~~~~~~~~~
+           XUartPs_LookupConfig
+../src/audio.c:24:9: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  Config = XIicPs_LookupConfig(DeviceIdPS);
+         ^
+../src/audio.c:30:11: warning: implicit declaration of function 'XIicPs_CfgInitialize'; did you mean 'XUartPs_CfgInitialize'? [-Wimplicit-function-declaration]
+  Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
+           ^~~~~~~~~~~~~~~~~~~~
+           XUartPs_CfgInitialize
+../src/audio.c:30:33: error: 'Iic' undeclared (first use in this function)
+  Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
+                                 ^~~
+../src/audio.c:30:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio.c:30:52: error: request for member 'BaseAddress' in something not a structure or union
+  Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
+                                                    ^~
+../src/audio.c:38:11: warning: implicit declaration of function 'XIicPs_SelfTest'; did you mean 'XUartPs_SelfTest'? [-Wimplicit-function-declaration]
+  Status = XIicPs_SelfTest(&Iic);
+           ^~~~~~~~~~~~~~~
+           XUartPs_SelfTest
+../src/audio.c:48:11: warning: implicit declaration of function 'XIicPs_SetSClk' [-Wimplicit-function-declaration]
+  Status = XIicPs_SetSClk(&Iic, IIC_SCLK_RATE);
+           ^~~~~~~~~~~~~~
+../src/audio.c: In function 'AudioWriteToReg':
+../src/audio.c:100:2: warning: implicit declaration of function 'XIicPs_MasterSendPolled' [-Wimplicit-function-declaration]
+  XIicPs_MasterSendPolled(&Iic, u8TxData, 2, IIC_SLAVE_ADDR);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+../src/audio.c:100:27: error: 'Iic' undeclared (first use in this function)
+  XIicPs_MasterSendPolled(&Iic, u8TxData, 2, IIC_SLAVE_ADDR);
+                           ^~~
+../src/audio.c:101:8: warning: implicit declaration of function 'XIicPs_BusIsBusy' [-Wimplicit-function-declaration]
+  while(XIicPs_BusIsBusy(&Iic));
+        ^~~~~~~~~~~~~~~~
+src/subdir.mk:33: recipe for target 'src/audio.o' failed
+make: *** [src/audio.o] Error 1
+15:24:09 **** Auto Build of configuration Debug for project guitar-tuner ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:16:10: fatal error: xiicps.h: No such file or directory
+ #include "xiicps.h"
+          ^~~~~~~~~~
+compilation terminated.
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:25:57 **** Build of project guitar-tuner-1_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+15:26:05 **** Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:26:06 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:26:43 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/helloworld.c:73:6: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+      usleep(10);
+      ^~~~~~
+../src/helloworld.c:79:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20608	   1176	  22600	  44384	   ad60	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:27:31 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:27:10: fatal error: lms_pcore_addr.h: No such file or directory
+ #include "lms_pcore_addr.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+15:28:03 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:74:1: error: unknown type name 'XNco'
+ XNco Nco;
+ ^~~~
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.h:53:18: error: 'XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_PS7_SLCR_0_S_AXI_BASEADDR'?
+ #define LED_BASE XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR
+                  ^
+../src/adventures_with_ip.h:53:18: note: in definition of macro 'LED_BASE'
+ #define LED_BASE XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/adventures_with_ip.h:53:18: note: each undeclared identifier is reported only once for each function it appears in
+ #define LED_BASE XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR
+                  ^
+../src/adventures_with_ip.h:53:18: note: in definition of macro 'LED_BASE'
+ #define LED_BASE XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/adventures_with_ip.c:71:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:72:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:28:31 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:27:12: error: 'Nco' undeclared (first use in this function)
+  nco_init(&Nco);
+            ^~~
+../src/adventures_with_ip.c:27:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:55:12: error: 'LED_BASE' undeclared (first use in this function); did you mean 'AUDIO_BASE'?
+  Xil_Out32(LED_BASE, 0);
+            ^~~~~~~~
+            AUDIO_BASE
+../src/adventures_with_ip.c:71:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:72:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+15:29:24 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'lms_filter':
+../src/ip_functions.c:31:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  step = XGpio_DiscreteRead(&Gpio, SWITCH_CHANNEL);
+                             ^~~~
+                             XGpio
+../src/ip_functions.c:31:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c:34:12: error: 'LED_BASE' undeclared (first use in this function); did you mean 'AUDIO_BASE'?
+  Xil_Out32(LED_BASE, step);
+            ^~~~~~~~
+            AUDIO_BASE
+../src/ip_functions.c:43:3: warning: implicit declaration of function 'XNco_Set_step_size_V' [-Wimplicit-function-declaration]
+   XNco_Set_step_size_V(&Nco, nco_in);
+   ^~~~~~~~~~~~~~~~~~~~
+../src/ip_functions.c:43:25: error: 'Nco' undeclared (first use in this function)
+   XNco_Set_step_size_V(&Nco, nco_in);
+                         ^~~
+../src/ip_functions.c:46:13: warning: implicit declaration of function 'XNco_Get_sine_sample_V' [-Wimplicit-function-declaration]
+   nco_out = XNco_Get_sine_sample_V(&Nco);
+             ^~~~~~~~~~~~~~~~~~~~~~
+../src/ip_functions.c:65:14: error: 'LMS_D' undeclared (first use in this function)
+    Xil_Out32(LMS_D, out_left >> SCALE); // Input audio+noise as desired signal
+              ^~~~~
+../src/ip_functions.c:66:14: error: 'LMS_X' undeclared (first use in this function); did you mean 'LMS_D'?
+    Xil_Out32(LMS_X, temp >> SCALE);  // Input noise as input
+              ^~~~~
+              LMS_D
+../src/ip_functions.c:67:14: error: 'LMS_STROBE' undeclared (first use in this function)
+    Xil_Out32(LMS_STROBE, 0x01);   // Stobe LMS to signal inputs are finished
+              ^~~~~~~~~~
+../src/ip_functions.c:73:26: error: 'LMS_E' undeclared (first use in this function); did you mean 'LMS_X'?
+     out_left = (Xil_In32(LMS_E) << (SCALE-1)); // Output filtered audio
+                          ^~~~~
+                          LMS_X
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:135:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  step = XGpio_DiscreteRead(&Gpio, SWITCH_CHANNEL);
+                             ^~~~
+                             XGpio
+../src/ip_functions.c:138:12: error: 'LED_BASE' undeclared (first use in this function); did you mean 'AUDIO_BASE'?
+  Xil_Out32(LED_BASE, step);
+            ^~~~~~~~
+            AUDIO_BASE
+../src/ip_functions.c:148:25: error: 'Nco' undeclared (first use in this function)
+   XNco_Set_step_size_V(&Nco, nco_in);
+                         ^~~
+../src/ip_functions.c: In function 'gpio_init':
+../src/ip_functions.c:222:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, BUTTON_SWITCH_ID);
+                             ^~~~
+                             XGpio
+../src/ip_functions.c:222:35: error: 'BUTTON_SWITCH_ID' undeclared (first use in this function)
+  Status = XGpio_Initialize(&Gpio, BUTTON_SWITCH_ID);
+                                   ^~~~~~~~~~~~~~~~
+../src/ip_functions.c: In function 'nco_init':
+../src/ip_functions.c:241:2: error: unknown type name 'XNco_Config'; did you mean 'XGpio_Config'?
+  XNco_Config *cfgPtr;
+  ^~~~~~~~~~~
+  XGpio_Config
+../src/ip_functions.c:247:11: warning: implicit declaration of function 'XNco_LookupConfig'; did you mean 'XGpio_LookupConfig'? [-Wimplicit-function-declaration]
+  cfgPtr = XNco_LookupConfig(NCO_ID);
+           ^~~~~~~~~~~~~~~~~
+           XGpio_LookupConfig
+../src/ip_functions.c:247:29: error: 'NCO_ID' undeclared (first use in this function); did you mean '_VOID'?
+  cfgPtr = XNco_LookupConfig(NCO_ID);
+                             ^~~~~~
+                             _VOID
+../src/ip_functions.c:253:11: warning: implicit declaration of function 'XNco_CfgInitialize'; did you mean 'XGpio_CfgInitialize'? [-Wimplicit-function-declaration]
+  status = XNco_CfgInitialize(InstancePtr, cfgPtr);
+           ^~~~~~~~~~~~~~~~~~
+           XGpio_CfgInitialize
+make: *** [src/ip_functions.o] Error 1
+src/subdir.mk:33: recipe for target 'src/ip_functions.o' failed
+15:31:17 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/helloworld.c:58: multiple definition of `main'
+makefile:39: recipe for target 'guitar-tuner-1.elf' failed
+./src/adventures_with_ip.o:/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/adventures_with_ip.c:15: first defined here
+./src/ip_functions.o: In function `audio_stream':
+/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/ip_functions.c:44: undefined reference to `menu'
+collect2: error: ld returned 1 exit status
+make: *** [guitar-tuner-1.elf] Error 1
+15:32:37 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/helloworld.c:58: multiple definition of `main'
+makefile:39: recipe for target 'guitar-tuner-1.elf' failed
+./src/adventures_with_ip.o:/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/adventures_with_ip.c:15: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [guitar-tuner-1.elf] Error 1
+15:34:02 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:35:33: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+      status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                 ^~~~
+                                 XGpio
+../src/adventures_with_ip.c:35:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/adventures_with_ip.c:35:39: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_1_DEVICE_ID'?
+      status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                       ^~~~~~~~~~~~~~
+                                       XPAR_GPIO_1_DEVICE_ID
+../src/adventures_with_ip.c:40:36: error: 'SSD_CHANNEL' undeclared (first use in this function); did you mean 'SWITCH_CHANNEL'?
+      XGpio_SetDataDirection(&Gpio, SSD_CHANNEL, 0x00);
+                                    ^~~~~~~~~~~
+                                    SWITCH_CHANNEL
+../src/adventures_with_ip.c:52:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+15:34:23 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:52:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/helloworld.c:58: multiple definition of `main'
+makefile:39: recipe for target 'guitar-tuner-1.elf' failed
+./src/adventures_with_ip.o:/home/user/Documents/temp/embedded-final-project/project-code/guitar_tuner/guitar_tuner.sdk/guitar-tuner-1/Debug/../src/adventures_with_ip.c:15: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [guitar-tuner-1.elf] Error 1
+15:34:54 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29892	   1192	  22680	  53764	   d204	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:37:42 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:52:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29892	   1192	  22680	  53764	   d204	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:38:04 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:52:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29892	   1192	  22680	  53764	   d204	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:44:24 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:52:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29892	   1192	  22680	  53764	   d204	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:44:27 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'audio_stream':
+../src/ip_functions.c:27:2: error: 'in_left' undeclared (first use in this function)
+  in_left = Xil_In32(I2S_DATA_RX_L_REG);
+  ^~~~~~~
+../src/ip_functions.c:27:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c:28:2: error: 'in_right' undeclared (first use in this function); did you mean 'in_left'?
+  in_right = Xil_In32(I2S_DATA_RX_R_REG);
+  ^~~~~~~~
+  in_left
+../src/ip_functions.c:30:2: error: 'avg' undeclared (first use in this function)
+  avg = in_left + in_right;
+  ^~~
+src/subdir.mk:33: recipe for target 'src/ip_functions.o' failed
+make: *** [src/ip_functions.o] Error 1
+15:44:59 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'audio_stream':
+../src/ip_functions.c:30:6: warning: unused variable 'avg' [-Wunused-variable]
+  u32 avg = (in_left + in_right) << 1;
+      ^~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29956	   1192	  22680	  53828	   d244	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:45:48 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'audio_stream':
+../src/ip_functions.c:30:6: warning: unused variable 'avg' [-Wunused-variable]
+  u32 avg = (in_left + in_right) << 1;
+      ^~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30020	   1192	  22680	  53892	   d284	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:46:14 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:54:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/adventures_with_ip.c:42:10: warning: unused variable 'samples' [-Wunused-variable]
+      u32 samples[1024];
+          ^~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30020	   1192	  22680	  53892	   d284	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:50:22 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:50:56 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:53:37 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:56:42 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+15:58:25 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+16:00:16 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'audio_stream':
+../src/ip_functions.c:30:6: warning: unused variable 'avg' [-Wunused-variable]
+  u32 avg = (in_left + in_right) << 1;
+      ^~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+16:00:18 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+16:00:25 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:00:56 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:71:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+16:01:00 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:02:48 **** Auto Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner-1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:32:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^~~~~~~~~~~~~
+../src/adventures_with_ip.c:48:22: warning: implicit declaration of function 'get_avg'; did you mean 'getenv'? [-Wimplicit-function-declaration]
+       samples[i++] = get_avg();
+                      ^~~~~~~
+                      getenv
+../src/adventures_with_ip.c:70:6: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+      cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tuner-1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner-1_bsp/ps7_cortexa9_0/lib -o "guitar-tuner-1.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/helloworld.o ./src/ip_functions.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tuner-1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tuner-1.elf  |tee "guitar-tuner-1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30212	   1192	  22680	  54084	   d344	guitar-tuner-1.elf
+Finished building: guitar-tuner-1.elf.size
+ 
+16:02:51 **** Incremental Build of configuration Debug for project guitar-tuner-1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

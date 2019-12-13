@@ -1,33 +1,17 @@
-21:32:15 **** Incremental Build of configuration Debug for project guitar-tuner ****
+15:24:09 **** Auto Build of configuration Debug for project guitar-tuner ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../src/helloworld.c
+Building file: ../src/adventures_with_ip.c
 Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:59:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
-     init_platform();
-     ^~~~~~~~~~~~~
-../src/helloworld.c:73:6: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
-      usleep(10);
-      ^~~~~~
-../src/helloworld.c:79:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
-     cleanup_platform();
-     ^~~~~~~~~~~~~~~~
-Finished building: ../src/helloworld.c
- 
-Building target: guitar-tuner.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tuner_bsp/ps7_cortexa9_0/lib -o "guitar-tuner.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: guitar-tuner.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size guitar-tuner.elf  |tee "guitar-tuner.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  20560	   1160	  22600	  44320	   ad20	guitar-tuner.elf
-Finished building: guitar-tuner.elf.size
- 
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tuner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+In file included from ../src/adventures_with_ip.c:6:0:
+../src/adventures_with_ip.h:16:10: fatal error: xiicps.h: No such file or directory
+ #include "xiicps.h"
+          ^~~~~~~~~~
+compilation terminated.
+src/subdir.mk:33: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
 
-21:32:15 Build Finished (took 311ms)
+15:24:09 Build Finished (took 259ms)
 
