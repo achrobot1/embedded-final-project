@@ -1,4 +1,0 @@
-NumberHits:0
-Timestamp: Fri Dec 13 19:57:24 UTC 2019
-VLNV: xilinx.com:xilinx:zybo_audio_ctrl:1.0
-SynthRuntime: 42

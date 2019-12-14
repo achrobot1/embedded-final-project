@@ -1,0 +1,450 @@
+
+*** Running vivado
+    with args -log ip_design_nco_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ip_design_nco_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ip_design_nco_0_0.tcl -notrace
+Command: synth_design -top ip_design_nco_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8554 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1281.895 ; gain = 81.891 ; free physical = 9465 ; free virtual = 27320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ip_design_nco_0_0' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/synth/ip_design_nco_0_0.vhd:80]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'nco' declared at '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:12' bound to instance 'U0' of component 'nco' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/synth/ip_design_nco_0_0.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'nco' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:39]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:63]
+	Parameter DataWidth bound to: 16 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'nco_sine_lut_V' declared at '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1414' bound to instance 'sine_lut_V_U' of component 'nco_sine_lut_V' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'nco_sine_lut_V' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1427]
+	Parameter DataWidth bound to: 16 - type: integer 
+	Parameter AddressRange bound to: 4096 - type: integer 
+	Parameter AddressWidth bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'nco_sine_lut_V_rom' declared at '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:12' bound to instance 'nco_sine_lut_V_rom_U' of component 'nco_sine_lut_V_rom' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1439]
+INFO: [Synth 8-638] synthesizing module 'nco_sine_lut_V_rom' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:27]
+	Parameter dwidth bound to: 16 - type: integer 
+	Parameter awidth bound to: 12 - type: integer 
+	Parameter mem_size bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'nco_sine_lut_V_rom' (1#1) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'nco_sine_lut_V' (2#1) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1427]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'nco_AXILiteS_s_axi' declared at '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_AXILiteS_s_axi.vhd:12' bound to instance 'nco_AXILiteS_s_axi_U' of component 'nco_AXILiteS_s_axi' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'nco_AXILiteS_s_axi' [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_AXILiteS_s_axi.vhd:61]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 'ACLK_EN' is read in the process but is not in the sensitivity list [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_AXILiteS_s_axi.vhd:136]
+WARNING: [Synth 8-614] signal 'ACLK_EN' is read in the process but is not in the sensitivity list [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_AXILiteS_s_axi.vhd:187]
+INFO: [Synth 8-256] done synthesizing module 'nco_AXILiteS_s_axi' (3#1) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_AXILiteS_s_axi.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'nco' (4#1) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ip_design_nco_0_0' (5#1) [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/synth/ip_design_nco_0_0.vhd:80]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port AWADDR[5]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[31]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[30]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[29]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[28]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[27]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[26]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[25]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[24]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[23]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[22]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[21]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[20]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[19]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[18]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[17]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WDATA[16]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WSTRB[3]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port WSTRB[2]
+WARNING: [Synth 8-3331] design nco_AXILiteS_s_axi has unconnected port ARADDR[5]
+WARNING: [Synth 8-3331] design nco_sine_lut_V has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1327.520 ; gain = 127.516 ; free physical = 9314 ; free virtual = 27169
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1327.520 ; gain = 127.516 ; free physical = 9389 ; free virtual = 27244
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1327.520 ; gain = 127.516 ; free physical = 9389 ; free virtual = 27244
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/constraints/nco_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.runs/ip_design_nco_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.runs/ip_design_nco_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1676.176 ; gain = 0.000 ; free physical = 8633 ; free virtual = 26488
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8793 ; free virtual = 26648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8793 ; free virtual = 26648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.runs/ip_design_nco_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8794 ; free virtual = 26649
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element q0_reg was removed.  [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1403]
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'nco_AXILiteS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'nco_AXILiteS_s_axi'
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  wridle |                              001 |                              000
+                  wrdata |                              010 |                              001
+                  wrresp |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'nco_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  rdidle |                                0 |                              011
+                  rddata |                                1 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'sequential' in module 'nco_AXILiteS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8797 ; free virtual = 26652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module nco_sine_lut_V_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module nco_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+Module nco 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg was removed.  [/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ipshared/6f49/hdl/vhdl/nco_sine_lut_V.vhd:1403]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_AWADDR[5]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[31]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[30]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[29]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[28]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[27]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[26]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[25]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[24]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[23]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[22]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[21]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[20]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[19]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[18]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[17]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WDATA[16]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WSTRB[3]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_WSTRB[2]
+WARNING: [Synth 8-3331] design nco has unconnected port s_axi_AXILiteS_ARADDR[5]
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[16]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[17]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[18]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[19]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[20]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[21]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[22]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[23]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[24]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[25]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[26]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[27]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[28]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[29]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[30]' (FDE) to 'U0/nco_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\nco_AXILiteS_s_axi_U/rdata_data_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (nco_AXILiteS_s_axi_U/rdata_data_reg[31]) is unused and will be removed from module nco.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8748 ; free virtual = 26603
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------+------------------------------------------+---------------+----------------+
+|Module Name        | RTL Object                               | Depth x Width | Implemented As | 
++-------------------+------------------------------------------+---------------+----------------+
+|nco_sine_lut_V_rom | q0_reg                                   | 4096x16       | Block RAM      | 
+|nco                | sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg | 4096x16       | Block RAM      | 
++-------------------+------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/i_0/sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/i_0/sine_lut_V_U/nco_sine_lut_V_rom_U/q0_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8394 ; free virtual = 26249
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8376 ; free virtual = 26231
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8368 ; free virtual = 26223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26210
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26210
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26210
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26210
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |     8|
+|2     |LUT1       |     3|
+|3     |LUT2       |    35|
+|4     |LUT3       |    33|
+|5     |LUT4       |     4|
+|6     |LUT6       |     5|
+|7     |RAMB36E1_4 |     1|
+|8     |RAMB36E1_5 |     1|
+|9     |FDRE       |    58|
+|10    |FDSE       |     2|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------------+-------------------+------+
+|      |Instance                   |Module             |Cells |
++------+---------------------------+-------------------+------+
+|1     |top                        |                   |   150|
+|2     |  U0                       |nco                |   150|
+|3     |    nco_AXILiteS_s_axi_U   |nco_AXILiteS_s_axi |   128|
+|4     |    sine_lut_V_U           |nco_sine_lut_V     |     3|
+|5     |      nco_sine_lut_V_rom_U |nco_sine_lut_V_rom |     3|
++------+---------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8354 ; free virtual = 26209
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1676.176 ; gain = 127.516 ; free physical = 8411 ; free virtual = 26266
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:38 . Memory (MB): peak = 1676.176 ; gain = 476.172 ; free physical = 8411 ; free virtual = 26266
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:39 . Memory (MB): peak = 1686.191 ; gain = 497.750 ; free physical = 8163 ; free virtual = 26018
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.runs/ip_design_nco_0_0_synth_1/ip_design_nco_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP /home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/ip_design_nco_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/user/Documents/embedded-final-project/project-code/guitar_tone/guitar_tone.runs/ip_design_nco_0_0_synth_1/ip_design_nco_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ip_design_nco_0_0_utilization_synth.rpt -pb ip_design_nco_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1710.203 ; gain = 0.000 ; free physical = 8211 ; free virtual = 26066
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 14 12:01:13 2019...
