@@ -91,27 +91,12 @@ int main(void)
 
 		if(delay_time != 0xFFFF)
 		{
-			/*
 			Xil_Out32(I2S_DATA_TX_L_REG, 0x0000FFFF);
 			Xil_Out32(I2S_DATA_TX_R_REG, 0x0000FFFF);
 			usleep(delay_time);
 			Xil_Out32(I2S_DATA_TX_L_REG, 0x0);
 			Xil_Out32(I2S_DATA_TX_R_REG, 0x0);
 			usleep(delay_time);
-			*/
-
-			Xil_Out32(I2S_DATA_TX_L_REG, 0x0000FFFF);
-			Xil_Out32(I2S_DATA_TX_R_REG, 0x0000FFFF);
-			usleep(delay_time>>1);
-			Xil_Out32(I2S_DATA_TX_L_REG, 0x00007FFF);
-			Xil_Out32(I2S_DATA_TX_R_REG, 0x00007FFF);
-			usleep(delay_time>>1);
-			Xil_Out32(I2S_DATA_TX_L_REG, 0x0);
-			Xil_Out32(I2S_DATA_TX_R_REG, 0x0);
-			usleep(delay_time>>1);
-			Xil_Out32(I2S_DATA_TX_L_REG, 0x00007FFF);
-			Xil_Out32(I2S_DATA_TX_R_REG, 0x00007FFF);
-			usleep(delay_time>>1);
 		}
 
 
