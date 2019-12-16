@@ -1,0 +1,6 @@
+#define E 0x79 // 0b1001111
+#define A 0x77 // 0b1110111
+#define D 0x1F // 0b0111101
+#define G 0x5F // 0b1011111
+#define B 0x1F // 0b0011111
+#define e 0x4F // 0b1001111

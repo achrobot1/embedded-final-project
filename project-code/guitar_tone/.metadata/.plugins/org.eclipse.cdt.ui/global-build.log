@@ -1,0 +1,1924 @@
+13:38:19 **** Build of project guitar-tone_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/nco_v1_0/src
+make -C ps7_cortexa9_0/libsrc/nco_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/nco_v1_0/src
+make -C ps7_cortexa9_0/libsrc/nco_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling nco
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+13:38:27 **** Clean-only build of configuration Debug for project guitar-tone ****
+make clean 
+rm -rf  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o  ./src/adventures_with_ip.d ./src/audio.d ./src/ip_functions.d  guitar-tone.elf.size  guitar-tone.elf
+ 
+13:38:27 **** Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:71:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:72:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32812	   1200	  22680	  56692	   dd74	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+13:40:32 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:45:30 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:55:38 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32748	   1200	  22680	  56628	   dd34	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:32:07 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+../src/ip_functions.c: In function 'gpio_init':
+../src/ip_functions.c:229:32: error: 'Ssd_gpio' undeclared (first use in this function); did you mean 'isdigit'?
+     Status = XGpio_Initialize(&Ssd_gpio, GPIO_DEVICE_ID);
+                                ^~~~~~~~
+                                isdigit
+../src/ip_functions.c:229:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c:229:42: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_1_DEVICE_ID'?
+     Status = XGpio_Initialize(&Ssd_gpio, GPIO_DEVICE_ID);
+                                          ^~~~~~~~~~~~~~
+                                          XPAR_GPIO_1_DEVICE_ID
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+make: *** [src/ip_functions.o] Error 1
+14:32:19 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:71:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:72:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+../src/ip_functions.c: In function 'gpio_init':
+../src/ip_functions.c:229:42: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_1_DEVICE_ID'?
+     Status = XGpio_Initialize(&Ssd_gpio, GPIO_DEVICE_ID);
+                                          ^~~~~~~~~~~~~~
+                                          XPAR_GPIO_1_DEVICE_ID
+../src/ip_functions.c:229:42: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+make: *** [src/ip_functions.o] Error 1
+14:32:42 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:76:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:77:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+../src/ip_functions.c: In function 'gpio_init':
+../src/ip_functions.c:229:42: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_GPIO_1_DEVICE_ID'?
+     Status = XGpio_Initialize(&Ssd_gpio, GPIO_DEVICE_ID);
+                                          ^~~~~~~~~~~~~~
+                                          XPAR_GPIO_1_DEVICE_ID
+../src/ip_functions.c:229:42: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+make: *** [src/ip_functions.o] Error 1
+14:33:34 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:76:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:77:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32812	   1200	  22696	  56708	   dd84	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:34:31 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+../src/ip_functions.c: In function 'gpio_init':
+../src/ip_functions.c:224:35: error: 'BUTTON_SWITCH_ID' undeclared (first use in this function)
+  Status = XGpio_Initialize(&Gpio, BUTTON_SWITCH_ID);
+                                   ^~~~~~~~~~~~~~~~
+../src/ip_functions.c:224:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/ip_functions.o] Error 1
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+14:34:52 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:76:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:77:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32876	   1200	  22696	  56772	   ddc4	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:34:57 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:75:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:76:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32876	   1200	  22696	  56772	   ddc4	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:35:44 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:83:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:84:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32836	   1200	  22696	  56732	   dd9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:37:12 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:39:42 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:83:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:84:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32836	   1200	  22696	  56732	   dd9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:44:28 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:44:40 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:83:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:84:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:44:44 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:83:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:84:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'lms_filter':
+../src/ip_functions.c:70:33: error: 'BUTTON_CHANNEL' undeclared (first use in this function); did you mean 'SWITCH_CHANNEL'?
+    if(XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL)>0){
+                                 ^~~~~~~~~~~~~~
+                                 SWITCH_CHANNEL
+../src/ip_functions.c:70:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+make: *** [src/ip_functions.o] Error 1
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+14:45:27 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:84:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:85:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'lms_filter':
+../src/ip_functions.c:70:33: error: 'BUTTON_CHANNEL' undeclared (first use in this function); did you mean 'SWITCH_CHANNEL'?
+    if(XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL)>0){
+                                 ^~~~~~~~~~~~~~
+                                 SWITCH_CHANNEL
+../src/ip_functions.c:70:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:132:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:132:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+make: *** [src/ip_functions.o] Error 1
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+14:46:23 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'lms_filter':
+../src/ip_functions.c:96:33: error: 'BUTTON_CHANNEL' undeclared (first use in this function); did you mean 'SWITCH_CHANNEL'?
+    if(XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL)>0){
+                                 ^~~~~~~~~~~~~~
+                                 SWITCH_CHANNEL
+../src/ip_functions.c:96:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:134:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:134:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+make: *** [src/ip_functions.o] Error 1
+src/subdir.mk:27: recipe for target 'src/ip_functions.o' failed
+14:46:49 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/ip_functions.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ip_functions.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ip_functions.d" -MT"src/ip_functions.o" -o "src/ip_functions.o" "../src/ip_functions.c"
+../src/ip_functions.c: In function 'tonal_noise':
+../src/ip_functions.c:136:32: warning: variable 'in_right' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                                ^~~~~~~~
+../src/ip_functions.c:136:23: warning: variable 'in_left' set but not used [-Wunused-but-set-variable]
+  u32 nco_in, nco_out, in_left, in_right, out_left, out_right, step, temp;
+                       ^~~~~~~
+Finished building: ../src/ip_functions.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:46:56 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:49:09 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:49:32 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:49:48 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:50:16 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:52:11 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:52:14 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:53:12 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:53:16 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:54:11 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:54:28 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:92:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:93:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:55:37 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:57:06 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:94:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:95:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32748	   1200	  22696	  56644	   dd44	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+14:57:19 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:59:47 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:05:21 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:103:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:104:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:05:24 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:06:05 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:103:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:104:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:06:07 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:06:23 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:103:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:104:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:06:26 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:06:44 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:103:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:104:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:06:47 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:08:24 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:115:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:116:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32772	   1200	  22696	  56668	   dd5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:10:17 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:105:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:106:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:13:54 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:105:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:106:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:14:00 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:14:59 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:16:06 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:21:32 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:21:54 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:106:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:107:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32708	   1200	  22696	  56604	   dd1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:22:07 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:28:52 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:62:10: error: label at end of compound statement
+     case 0xf:
+          ^~~
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:136:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:137:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:27: recipe for target 'src/adventures_with_ip.o' failed
+15:30:01 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:155:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:156:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32900	   1200	  22696	  56796	   dddc	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:32:49 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:155:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:156:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32900	   1200	  22696	  56796	   dddc	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:33:15 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:139:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:140:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32964	   1200	  22696	  56860	   de1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:33:30 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:34:42 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:139:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:140:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32964	   1200	  22696	  56860	   de1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:36:02 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:139:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:140:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32900	   1200	  22696	  56796	   dddc	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:36:47 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:139:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:140:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32964	   1200	  22696	  56860	   de1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:37:17 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:141:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:142:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32964	   1200	  22696	  56860	   de1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:37:20 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:39:28 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:148:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:149:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:39:30 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:43:17 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:148:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:149:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:46:56 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:155:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:156:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:50:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33156	   1200	  22696	  57052	   dedc	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:47:02 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:48:08 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:49:03 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:49:06 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:49:35 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:49:40 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:50:35 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:50:38 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:56:30 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:56:33 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:57:21 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:57:25 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:58:09 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:149:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:150:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33092	   1200	  22696	  56988	   de9c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:58:13 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:59:04 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:151:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:152:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:44:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33156	   1200	  22696	  57052	   dedc	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+15:59:07 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:00:37 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:2: error: expected ';' before '}' token
+  }
+  ^
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:156:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:157:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+make: *** [src/adventures_with_ip.o] Error 1
+src/subdir.mk:27: recipe for target 'src/adventures_with_ip.o' failed
+16:00:41 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:43:2: error: expected ';' before '}' token
+  }
+  ^
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:156:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:157:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+src/subdir.mk:27: recipe for target 'src/adventures_with_ip.o' failed
+make: *** [src/adventures_with_ip.o] Error 1
+16:00:49 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:156:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:157:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:49:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33220	   1200	  22696	  57116	   df1c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+16:00:52 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+16:02:44 **** Auto Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/adventures_with_ip.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adventures_with_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../guitar-tone_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adventures_with_ip.d" -MT"src/adventures_with_ip.o" -o "src/adventures_with_ip.o" "../src/adventures_with_ip.c"
+../src/adventures_with_ip.c: In function 'menu':
+../src/adventures_with_ip.c:162:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while (!XUartPs_IsReceiveData(UART_BASEADDR));
+  ^~~~~
+../src/adventures_with_ip.c:163:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     inp = XUartPs_ReadReg(UART_BASEADDR, XUARTPS_FIFO_OFFSET);
+     ^~~
+../src/adventures_with_ip.c: In function 'main':
+../src/adventures_with_ip.c:55:5: warning: 'prev_input' is used uninitialized in this function [-Wuninitialized]
+   if(switch_inputs != prev_input)
+     ^
+Finished building: ../src/adventures_with_ip.c
+ 
+Building target: guitar-tone.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../guitar-tone_bsp/ps7_cortexa9_0/lib -o "guitar-tone.elf"  ./src/adventures_with_ip.o ./src/audio.o ./src/ip_functions.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: guitar-tone.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size guitar-tone.elf  |tee "guitar-tone.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33284	   1200	  22696	  57180	   df5c	guitar-tone.elf
+Finished building: guitar-tone.elf.size
+ 
+16:02:47 **** Incremental Build of configuration Debug for project guitar-tone ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

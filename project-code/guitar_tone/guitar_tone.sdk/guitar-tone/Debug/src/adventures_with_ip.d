@@ -24,7 +24,8 @@ src/adventures_with_ip.o src/adventures_with_ip.o: \
  ../../guitar-tone_bsp/ps7_cortexa9_0/include/xuartps_hw.h ../src/audio.h \
  ../src/lms_pcore_addr.h \
  ../../guitar-tone_bsp/ps7_cortexa9_0/include/xnco.h \
- ../../guitar-tone_bsp/ps7_cortexa9_0/include/xnco_hw.h
+ ../../guitar-tone_bsp/ps7_cortexa9_0/include/xnco_hw.h ../src/ssd.h \
+ ../src/delay_times.h
 
 ../src/adventures_with_ip.h:
 
@@ -79,3 +80,7 @@ src/adventures_with_ip.o src/adventures_with_ip.o: \
 ../../guitar-tone_bsp/ps7_cortexa9_0/include/xnco.h:
 
 ../../guitar-tone_bsp/ps7_cortexa9_0/include/xnco_hw.h:
+
+../src/ssd.h:
+
+../src/delay_times.h:

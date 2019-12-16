@@ -4,6 +4,11 @@
  * Main source file. Contains main() and menu() functions.
  */
 #include "adventures_with_ip.h"
+#include "ssd.h"
+#include "delay_times.h"
+
+
+
 
 /* ---------------------------------------------------------------------------- *
  * 									main()										*
@@ -22,9 +27,95 @@ int main(void)
 
 	xil_printf("SSM2603 configured\n\r");
 
+
 	/* Initialise GPIO and NCO peripherals */
 	gpio_init();
 	nco_init(&Nco);
+
+	u32 switch_inputs;
+	u32 prev_input;
+	u16 delay_time = 0xFFFF;
+
+	for(int i=0; i<8; i++)
+	{
+		XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL,1<<i);
+		usleep(250000);
+	}
+	for(int i=0; i<8; i++)
+		{
+			XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL,(1<<i)|0x80 );
+			usleep(250000);
+		}
+
+
+	while(1)
+	{
+		switch_inputs = XGpio_DiscreteRead(&Gpio, SWITCH_CHANNEL);
+
+		if(switch_inputs != prev_input)
+		{
+			switch(switch_inputs)
+			{
+				case 0x0: delay_time = 0xFFFF;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL,0x7F);
+					break;
+				case 0x1: delay_time = E_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, E);
+					break;
+				case 0x2: delay_time = A_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, A);
+					break;
+				case 0x3: delay_time = D_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, D);
+					break;
+				case 0x4: delay_time = G_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, G);
+					break;
+				case 0x5: delay_time = B_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, B);
+					break;
+				case 0x6: delay_time = e_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, e);
+					break;
+				case 0x7: delay_time = drop_D_delay;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, D);
+					break;
+				default: delay_time = 0xFFFF;
+					XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL,0x7F);
+					break;
+
+
+			}
+
+		}
+
+		if(delay_time != 0xFFFF)
+		{
+			Xil_Out32(I2S_DATA_TX_L_REG, 0x0000FFFF);
+			Xil_Out32(I2S_DATA_TX_R_REG, 0x0000FFFF);
+			usleep(delay_time);
+			Xil_Out32(I2S_DATA_TX_L_REG, 0x0);
+			Xil_Out32(I2S_DATA_TX_R_REG, 0x0);
+			usleep(delay_time);
+		}
+
+
+		/*
+		XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, E);
+		sleep(1);
+		XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, A);
+		sleep(1);
+		XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, D);
+		sleep(1);
+		XGpio_DiscreteWrite(&Gpio, SSD_CHANNEL, G);
+		sleep(1);
+		*/
+
+
+		// XGpio_DiscreteWrite(&Ssd_gpio, SSD_CHANNEL, 0x7F);
+
+	}
+
 
 	xil_printf("GPIO and NCO peripheral configured\r\n");
 

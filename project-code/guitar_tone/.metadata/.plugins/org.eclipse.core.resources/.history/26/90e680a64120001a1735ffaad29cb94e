@@ -1,0 +1,8 @@
+// Delay times in usec. to be passed to usleep()
+// delay times are half of target period
+#define E_delay
+#define A_delay
+#define D_delay
+#define G_delay
+#define B_delay
+#define e_delay

@@ -50,16 +50,19 @@ void nco_init(void *InstancePtr);
 
 #define UART_BASEADDR XPAR_PS7_UART_1_BASEADDR
 
-// #define BUTTON_SWITCH_BASE XPAR_GPIO_1_BASEADDR
+#define BUTTON_SWITCH_BASE XPAR_GPIO_1_BASEADDR
 // #define LED_BASE XPAR_LED_CONTROLLER_0_S00_AXI_BASEADDR
-// #define BUTTON_SWITCH_ID XPAR_GPIO_1_DEVICE_ID
+#define BUTTON_SWITCH_ID XPAR_GPIO_1_DEVICE_ID
 #define AUDIO_ENABLE_ID XPAR_AXI_GPIO_0_DEVICE_ID
 
 /* ---------------------------------------------------------------------------- *
  * 							Define GPIO Channels								*
  * ---------------------------------------------------------------------------- */
-#define BUTTON_CHANNEL 1
+// #define BUTTON_CHANNEL 1
 #define SWITCH_CHANNEL 2
+
+#define GPIO_DEVICE_ID XPAR_GPIO_0_DEVICE_ID
+#define SSD_CHANNEL 1
 
 /* ---------------------------------------------------------------------------- *
  * 							Audio Scaling Factor								*
@@ -71,6 +74,7 @@ void nco_init(void *InstancePtr);
  * ---------------------------------------------------------------------------- */
 XIicPs Iic;
 XGpio Gpio; // Gpio instance for buttons and switches
+XGpio Ssd_gpio;
 XGpio Gpio_audio_enable; // GPIO instance for digital mute
 XNco Nco;
 

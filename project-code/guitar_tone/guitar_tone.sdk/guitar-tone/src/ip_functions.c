@@ -67,11 +67,13 @@ void lms_filter()
 			Xil_Out32(LMS_STROBE, 0x01);			// Stobe LMS to signal inputs are finished
 
 			/* If any button is pressed */
+			/*
 			if(XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL)>0){
 
-				/* Wait until output data is ready */
+				Wait until output data is ready
 				out_left = (Xil_In32(LMS_E) << (SCALE-1)); // Output filtered audio
 			}
+			*/
 
 			/* Output audio to the codec */
 			Xil_Out32(I2S_DATA_TX_L_REG, out_left);
@@ -91,9 +93,11 @@ void lms_filter()
 			Xil_Out32(LMS_STROBE, 0x01);			// Stobe LMS to signal inputs are finished
 
 			/* If any button is pressed */
+			/*
 			if(XGpio_DiscreteRead(&Gpio, BUTTON_CHANNEL)>0){
 				out_right = (Xil_In32(LMS_E) << (SCALE-1)); // output filtered audio
 			}
+			*/
 
 			/* Output audio to the codec */
 			Xil_Out32(I2S_DATA_TX_R_REG, out_right);
@@ -158,8 +162,10 @@ void tonal_noise(void)
 
 
 		/* Add scaled noise component to the L+R audio samples */
-		out_left =  temp + in_left;
-		out_right = temp + in_right;
+		// out_left =  temp + in_left;
+		// out_right = temp + in_right;
+		out_left =  temp;
+		out_right = temp;
 
 		/* Output corrupted audio to the codec */
 		Xil_Out32(I2S_DATA_TX_L_REG, out_left);
@@ -219,14 +225,18 @@ unsigned char gpio_init()
 {
 	int Status;
 
-	// Status = XGpio_Initialize(&Gpio, BUTTON_SWITCH_ID);
-	// if(Status != XST_SUCCESS) return XST_FAILURE;
+	Status = XGpio_Initialize(&Gpio, BUTTON_SWITCH_ID);
+	if(Status != XST_SUCCESS) return XST_FAILURE;
 	Status = XGpio_Initialize(&Gpio_audio_enable, AUDIO_ENABLE_ID);
 	if(Status != XST_SUCCESS) return XST_FAILURE;
 
+    // Status = XGpio_Initialize(&Ssd_gpio, GPIO_DEVICE_ID);
+	// if(Status != XST_SUCCESS) return XST_FAILURE;
+
+    // XGpio_SetDataDirection(&Ssd_gpio, SSD_CHANNEL, 0x00);
 	XGpio_SetDataDirection(&Gpio_audio_enable, 1, 0x00);
 	XGpio_SetDataDirection(&Gpio, SWITCH_CHANNEL, 0xFF);
-	// XGpio_SetDataDirection(&Gpio, BUTTON_CHANNEL, 0xFF);
+	XGpio_SetDataDirection(&Gpio, SSD_CHANNEL, 0x00);
 
 	return XST_SUCCESS;
 }
